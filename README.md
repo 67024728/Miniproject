@@ -1,1 +1,2 @@
 # Miniproject
+https://www.figma.com/make/TMnQv4Q8HEA0QFzTtEgP6o/EASY-VOCAB-Web-Application?p=f&t=PkVrOCw2Mk2TM5Jr-0&fullscreen=1
