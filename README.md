@@ -3,7 +3,7 @@ https://www.figma.com/make/TMnQv4Q8HEA0QFzTtEgP6o/EASY-VOCAB-Web-Application?p=f
 
 #Project: เว็บแอปพลิเคชันคำศัพท์ภาษาอังกฤษ
 
-#สมาชิก
+##สมาชิก
 67021095 ปาริชาต จันจม sec.1
 67024863 รัตน์ติญาภรณ์ แหลมจัด sec.1
 67024728 ขวัญชีวา คำแดง sec.2
