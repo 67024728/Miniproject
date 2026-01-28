@@ -1,6 +1,6 @@
 # 🎃 Project: เว็บแอปพลิเคชันคำศัพท์ภาษาอังกฤษ (Easy Vocab) 🧛‍♂️
 
-![Halloween Banner](https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExbmhmZWN4aHJ3NmJ5Y3Rod3Z4aHJ3NmJ5Y3Rod3Z4aHJ3NmJ5Y3Rod3Z4aCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/WCQAm2HqXykrm/giphy.gif)
+![Halloween Banner](https://www.google.com/url?sa=t&source=web&rct=j&url=https%3A%2F%2Fhocco.co%2Fblog%2Fwhat-is-meme%2F&ved=0CBYQjRxqFwoTCMDHxZ7orZIDFQAAAAAdAAAAABAe&opi=89978449)
 
 > *"Learning English isn't scary... getting an 'F' is."* 👻
 
