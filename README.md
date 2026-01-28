@@ -36,6 +36,3 @@ Figma ด้านล่างนี้ 👇
 
 ---
 
-### 👻 Happy Coding & Happy Halloween!
-
-![Dancing Pumpkin](https://media.giphy.com/media/10UB1BfC4HKnk4/giphy.gif)
