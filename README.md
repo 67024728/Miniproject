@@ -7,7 +7,7 @@
 Figma ด้านล่างนี้ 👇
 
 ### 🔗 [CLICK HERE IF YOU DARE (Figma Link)](https://media.giphy.com/media/l2JHtOA5HkH8PVE5i/giphy.gif).
-![Coding Skeleton](https://media.giphy.com/media/26n6WywJyh39n1pBu/giphy.gif)
+![Coding Skeleton](https://media.giphy.com/media/l2JHtOA5HkH8PVE5i/giphy.gif)
 
 
 ---
