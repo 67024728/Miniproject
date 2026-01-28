@@ -12,7 +12,7 @@
 
 ถ้าคุณกล้าพอ... เชิญกดเข้าไปดูหน้าตาแอปพลิเคชันของเราได้ที่ Figma ด้านล่างนี้ 👇
 
-### 🔗 [CLICK HERE IF YOU DARE (Figma Link)](https://www.figma.com/make/TMnQv4Q8HEAOQFzTtEgP6o/EASY-VOCAB-Web-Application?p=f&t=PkVrOCw2Mk2TM5Jr-0&fullscreen=1)
+### 🔗 [CLICK HERE IF YOU DARE (Figma Link)](https://www.figma.com/make/TMnQv4Q8HEA0QFzTtEgP6o/EASY-VOCAB-Web-Application?fullscreen=1&t=CpVwMWjU4rGxHCm4-1)
 
 ![Coding Skeleton](https://media.giphy.com/media/QRxC6f2O12YQE/giphy.gif)
 *(ภาพจำลองสถานการณ์: พวกเราตอนปั่นงานส่งอาจารย์)*
