@@ -6,8 +6,7 @@
 
 Figma ด้านล่างนี้ 👇
 
-### 🔗 [CLICK HERE IF YOU DARE (Figma Link)](https://www.figma.com/make/TMnQv4Q8HEA0QFzTtEgP6o/EASY-VOCAB-Web-Application?fullscreen=1&t=CpVwMWjU4rGxHCm4-1)
-
+### 🔗 [CLICK HERE IF YOU DARE (Figma Link)](https://media.giphy.com/media/l2JHtOA5HkH8PVE5i/giphy.gif).
 ![Coding Skeleton](https://media.giphy.com/media/QRxC6f2O12YQE/giphy.gif)
 *(ภาพจำลองสถานการณ์: พวกเราตอนปั่นงานส่งอาจารย์)*
 
