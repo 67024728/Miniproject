@@ -1,7 +1,5 @@
-# Miniproject(สไลด์นำเสนอUX/Ui)
+Project: เว็บแอปพลิเคชันคำศัพท์ภาษาอังกฤษ
 https://www.figma.com/make/TMnQv4Q8HEA0QFzTtEgP6o/EASY-VOCAB-Web-Application?p=f&t=PkVrOCw2Mk2TM5Jr-0&fullscreen=1
-
-#Project: เว็บแอปพลิเคชันคำศัพท์ภาษาอังกฤษ
 
 ##สมาชิก
 67021095 ปาริชาต จันจม sec.1
