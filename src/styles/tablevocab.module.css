@@ -1,0 +1,79 @@
+.vocabContainer {
+    background-color: #fff;
+    font-family: "Google Sans", sans-serif;
+    width: 100%;
+    margin: 20px 0;
+    border-radius: 5px;
+    border-spacing: 0;
+    border-collapse: separate;
+    border: 2px solid #000;
+    overflow: hidden;   
+}
+
+.vocabContainer thead tr {
+  background-color: #dcf2f9;
+  border-bottom: 2px solid #000;
+}
+
+.vocabContainer th {
+  padding: 12px 15px;
+  text-align: left;
+  font-weight: bold;
+}
+
+.vocabContainer td {
+  padding: 12px 15px;
+  border-bottom: 1.5px solid #dcf2f9;
+}
+
+.wordBold {
+  font-weight: 700;
+}
+
+.phonetic {
+  color: #666;
+  font-style: italic;
+}
+
+/* ปุ่มเปลี่ยนหน้า */
+.pagination {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+  margin-top: 20px;
+}
+
+.pagination button {
+  padding: 8px 16px;
+  border: 2px solid #333;
+  border-radius: 8px;
+  background-color: #fff;
+  cursor: pointer;
+  font-weight: bold;
+  transition: all 0.2s ease;
+  box-shadow: 2px 2px 0px #333; /* สร้างมิติแบบการ์ตูน */
+}
+
+.pagination button:hover:not(:disabled) {
+  background-color: #f0f0f0;
+  transform: translate(-1px, -1px);
+  box-shadow: 3px 3px 0px #333;
+}
+
+.pagination button:active:not(:disabled) {
+  transform: translate(1px, 1px);
+  box-shadow: 1px 1px 0px #333;
+}
+
+.pagination button:disabled {
+  border-color: #ccc;
+  color: #ccc;
+  box-shadow: none;
+  cursor: not-allowed;
+}
+
+.pagination span {
+  font-weight: bold;
+  color: #555;
+}

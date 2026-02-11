@@ -1,0 +1,91 @@
+.header {
+    width: 100%;
+    max-width: 800px; /* ขยายให้กว้างขึ้นนิดหน่อย */
+    text-align: center;
+    padding: 30px;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.header h1 {
+    font-family: "Caveat", cursive;
+    font-size: 70px; /* ปรับขนาดให้เด่น */
+    margin: 0 0 10px 0;
+}
+
+.header p {
+    font-size: 25px;
+    margin: 0;
+}
+
+.menu {
+    display: flex;
+    flex-wrap: wrap; /* ให้รองรับหน้าจอที่เล็กลง (Responsive) */
+    justify-content: center;
+    gap: 40px; /* ลดระยะห่างให้ดูเกาะกลุ่มสวยขึ้น */
+    width: 100%;
+    max-width: 1200px;
+    margin: 30px auto;
+}
+
+.menu article h3 {
+    margin: 0;
+    margin-bottom: 5px;
+    margin-top: 15px;
+    font-size: 24px;
+}
+
+.menu article p {
+    margin: 0;
+    font-size: 16px;
+    line-height: 2;
+}
+
+.menu article {
+    flex: 1;
+    min-width: 250px;
+    background: var(--primary-yellow);
+    padding: 20px 10px;
+    text-align: center;
+    border: 2px solid var(--border-color);
+    box-shadow: 5px 5px 0px 0px rgba(0,0,0,0.1);
+    cursor: pointer;
+    transition: transform 0.3s ease, background-color 0.3s ease;
+    /* จัดข้อความ */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 150px;
+}
+
+.menu article:hover {
+    background-color: var(--hover-yellow);
+    transform: scale(1.05) rotate(0deg) !important; /* เวลาราวให้กลับมาตรง */
+}
+
+.menubtn_one { transform: rotate(-2deg); }
+.menubtn_two { transform: rotate(1.5deg); }
+.menubtn_three { transform: rotate(-1deg); }
+
+.advice {
+    width: 100%;
+    max-width: 700px;
+    margin: 50px auto;
+}
+
+.advice h2 {
+    font-size: 30px;
+}
+
+.box{
+    font-size: 18px;
+    background: rgba(255, 255, 255, 0.8); /* เพิ่มความเข้มให้อ่านง่ายขึ้น */
+    padding: 20px 40px 20px 60px;
+    border: 2px solid var(--border-color);
+    border-radius: 12px;
+    line-height: 2;
+    box-shadow: 4px 4px 0px 0px rgba(0,0,0,0.05);
+}
+

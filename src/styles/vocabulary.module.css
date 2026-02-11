@@ -1,0 +1,28 @@
+.vocab_title {
+    text-align: center;
+    font-size: 40px;
+    margin: 35px 30px 20px;
+}
+
+.word {
+    font-family: "Google Sans", sans-serif;
+    max-width: 1300px;
+    margin: 0 auto;
+    padding: 10px;
+}
+
+.category {
+  background-color: #ffffff;
+  border: 2px solid #333;
+  border-radius: 5px;
+  padding: 20px;
+  margin-bottom: 30px;
+  display: flex;
+  justify-content: center;
+  box-shadow: 4px 4px 0px rgba(0,0,0,0.1); /* เพิ่มมิติแบบการ์ตูนๆ */
+}
+
+.footer {
+    text-align: center;
+}
+

@@ -1,0 +1,8 @@
+.filter_container {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  padding: 15px;
+  border-radius: 12px;
+  white-space: nowrap;
+}
