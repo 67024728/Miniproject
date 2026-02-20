@@ -12,8 +12,7 @@
 
 | Part | Technology |
 |---|---|
-| **Full Stack** | HTML5, CSS3, JavaScript (React) |
-| **Styling** | Tailwind CSS / Bootstrap |
+| **Full Stack** | HTML5, CSS3, JavaScript (Node.js) |
 | **Design Tool** | Canva Figma|
 | **Database** | Prisma Mongo DB|
 
