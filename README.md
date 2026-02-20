@@ -12,7 +12,7 @@
 
 | Part | Technology |
 |---|---|
-| **Frontend** | HTML5, CSS3, JavaScript (React/Vue/Vanilla) |
+| **Full Stack** | HTML5, CSS3, JavaScript (React) |
 | **Styling** | Tailwind CSS / Bootstrap |
 | **Design Tool** | Canva Figma|
 | **Database** | Prisma Mongo DB|
