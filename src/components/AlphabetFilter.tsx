@@ -7,15 +7,16 @@ export default function AlphabetFilter({ selected, onSelect }: { selected: strin
     <nav className={styles.filter_container}>
       <button 
         onClick={() => onSelect("ALL")}
-        className={`filter-btn ${selected === "ALL" ? "active" : ""}`}
+        className={`${styles.filter_btn} ${styles.alphabet_item} ${selected === "ALL" ? styles.active : ""}`}
       >
         ALL
       </button>
+
       {letters.map((char) => (
         <button
           key={char}
           onClick={() => onSelect(char)}
-          className={`filter-btn ${selected === char ? "active" : ""}`}
+          className={`${styles.filter_btn} ${styles.alphabet_item} ${selected === char ? styles.active : ""}`}
         >
           {char}
         </button>

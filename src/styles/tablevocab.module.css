@@ -7,8 +7,16 @@
     border-spacing: 0;
     border-collapse: separate;
     border: 2px solid #000;
-    overflow: hidden;   
+    overflow: hidden;
+    box-shadow: 4px 4px 0px 0px rgba(0, 0, 0, 0.1);   
 }
+
+.vocabContainer th:nth-child(1) { width: 10%; }  /* Checkbox */
+.vocabContainer th:nth-child(2) { width: 15%; } /* ลำดับ */
+.vocabContainer th:nth-child(3) { width: 15%; } /* คำศัพท์ */
+.vocabContainer th:nth-child(4) { width: 15%; } /* POS */
+.vocabContainer th:nth-child(5) { width: 15%; } /* คำอ่าน */
+.vocabContainer th:nth-child(6) { width: 15%; } /* คำแปล */
 
 .vocabContainer thead tr {
   background-color: #dcf2f9;
@@ -23,16 +31,19 @@
 
 .vocabContainer td {
   padding: 12px 15px;
-  border-bottom: 1.5px solid #dcf2f9;
+  border-bottom: 1.5px solid #dcf2f9; /*เส้นบรรทัด*/
 }
 
-.wordBold {
-  font-weight: 700;
+.nodata {
+  font-size: 20px;
+  text-align: center;
+  color: #DC143C;
+  font-weight: bold;
 }
 
 .phonetic {
   color: #666;
-  font-style: italic;
+
 }
 
 /* ปุ่มเปลี่ยนหน้า */
@@ -45,25 +56,18 @@
 }
 
 .pagination button {
-  padding: 8px 16px;
-  border: 2px solid #333;
-  border-radius: 8px;
-  background-color: #fff;
-  cursor: pointer;
-  font-weight: bold;
-  transition: all 0.2s ease;
-  box-shadow: 2px 2px 0px #333; /* สร้างมิติแบบการ์ตูน */
+    font-family: "Google Sans", sans-serif;
+    font-size: 16px;
+    padding: 8px 16px;
+    border: 2px solid #333;
+    border-radius: 5px;
+    background-color: #fff;
+    cursor: pointer;
+    transition: all 0.2s ease;
 }
 
 .pagination button:hover:not(:disabled) {
-  background-color: #f0f0f0;
-  transform: translate(-1px, -1px);
-  box-shadow: 3px 3px 0px #333;
-}
-
-.pagination button:active:not(:disabled) {
-  transform: translate(1px, 1px);
-  box-shadow: 1px 1px 0px #333;
+    background-color: #f0f0f0;
 }
 
 .pagination button:disabled {
@@ -73,7 +77,84 @@
   cursor: not-allowed;
 }
 
-.pagination span {
+.arrow {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.page {
   font-weight: bold;
-  color: #555;
+  padding: 12px 16px;
+  background-color: #fff176;
+  border-radius: 5px;
+  border: 2px solid #000;
+}
+
+.checkboxCell input[type="checkbox"] {
+  cursor: pointer;
+  width: 80px;
+  height: 20px;
+}
+
+/* แถบ Action Bar */
+.actionBar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 12px 20px;
+  background-color: #fff;
+  border: 1.5px solid #000; /* เส้นขอบชัดเจนตามสไตล์หน้าเว็บ */
+  border-radius: 15px; /* มนเท่ากับกล่องตัวอักษร */
+  margin-bottom: 20px;
+  box-shadow: 2px 2px 0px rgba(0,0,0,0.1);
+}
+
+.actionButtons {
+  display: flex;
+  gap: 10px;
+}
+
+/* ปุ่มทบทวน (สีขาว/ดำ) */
+.reviewBtn {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  padding: 6px 16px;
+  border: 1.5px solid #000;
+  border-radius: 12px;
+  background-color: #fff;
+  cursor: pointer;
+  font-weight: 500;
+  transition: all 0.2s;
+}
+
+.reviewBtn:hover {
+  background-color: #f0f0f0;
+  transform: translateY(-1px);
+}
+
+/* ปุ่มลบออก (เพิ่มสีแดงอ่อนให้เข้ากับปุ่ม Logout) */
+.deleteBtn {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  padding: 6px 16px;
+  border: 1.5px solid #000;
+  border-radius: 12px;
+  background-color: #fff;
+  cursor: pointer;
+  font-weight: 500;
+  transition: all 0.2s;
+}
+
+.deleteBtn:hover {
+  background-color: #ffcccc; /* สีแดงอ่อนพาสเทล */
+  color: #d32f2f;
+}
+
+/* บังคับขนาดไอคอน */
+.reviewBtn span, .deleteBtn span {
+  font-size: 20px !important;
+  vertical-align: middle;
 }

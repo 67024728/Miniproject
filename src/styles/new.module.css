@@ -9,7 +9,7 @@
     border: 2px solid #333;
     border-radius: 5px;
     max-width: 900px;
-    margin: 40px 0 0 180px;
+    margin: 40px 0 0 150px;
     display: flex;
     justify-content: center;
     box-shadow: 4px 4px 0px rgba(0,0,0,0.1);
@@ -17,4 +17,47 @@
 
 .advice {
     font-size: 16px;
+}
+
+/* คอนเทนเนอร์หลักของตาราง */
+.vocabletable {
+  margin: 30px auto;
+  width: 80%;
+  border-collapse: separate;
+  border-spacing: 0;
+  border: 2px solid #333; /* ขอบเข้มตามสไตล์ในรูป */
+  border-radius: 5px;
+  overflow: hidden;
+  background-color: white;
+}
+
+/* ส่วนหัวตาราง */
+.vocabletable thead {
+  background-color: #dcf2f9; /* สีฟ้าอ่อนตามรูป */
+}
+
+.vocabletable th {
+  padding: 12px;
+  text-align: left;
+  border-bottom: 2px solid #333;
+  font-weight: bold;
+  color: #333;
+}
+
+/* ส่วนเนื้อหาตาราง */
+.vocabletable td {
+  padding: 10px;
+  border-bottom: 1px solid #eee;
+  vertical-align: middle;
+}
+
+/* ตกแต่ง Input ในตาราง */
+.vocabletable input {
+  width: 90%;
+  padding: 5px;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  font-size: 14px;
+  outline: none;
+  transition: border-color 0.2s;
 }

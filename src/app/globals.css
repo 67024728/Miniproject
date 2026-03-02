@@ -2,8 +2,10 @@
     --primary-yellow: #fff176;
     --hover-yellow: #fff59d;
     --pink-logout: #FAA0A0;
+    --red-logout: #F08080;
     --border-color: #000;
     --white-home: #fff;
+    --white-hover: #F5F5F5;
     --pikky-delete: #F8C8DC;
     --yellow-save: #FFEE8C;
 }
@@ -18,7 +20,7 @@ body {
 
 a {
   text-decoration: none !important; /* เอาขีดเส้นใต้ออก */
-  color: inherit !important;       /* ให้ใช้สีตามข้อความปกติ */
+  color: #000;
 }
 
 .home-btn {
@@ -35,12 +37,12 @@ a {
     align-items: center;
     gap: 8px;
     cursor: pointer;
-    box-shadow: 4px 4px 0px 0px rgba(0, 0, 0, 0.1);
+    box-shadow: 3px 3px 0px 0px rgba(0, 0, 0, 0.1);
     transition: transform 0.3s ease;
 }
 
 .home-btn:hover {
-    transform:scale(1.05);
+    background-color: var(--white-hover);
 }
 
 .logout-btn {
@@ -57,12 +59,12 @@ a {
     align-items: center;
     gap: 8px;
     cursor: pointer;
-    box-shadow: 4px 4px 0px 0px rgba(0, 0, 0, 0.1);
+    box-shadow: 3px 3px 0px 0px rgba(0, 0, 0, 0.1);
     transition: transform 0.3s ease;
 }
 
 .logout-btn:hover {
-    transform:scale(1.05);
+    background-color: var(--red-logout);
 }
 
 .save-btn {
@@ -71,7 +73,7 @@ a {
     background-color: var(--yellow-save);
     position: absolute; 
     top:130px;
-    right: 150px;
+    right: 160px;
     padding: 10px 20px;
     border-radius: 5px;
     border: 2px solid var(--border-color);
@@ -84,7 +86,7 @@ a {
 }
 
 .save-btn:hover {
-    transform:scale(1.05);
+    background-color: var(--hover-yellow);
 }
 
 .delete-btn {
@@ -93,28 +95,6 @@ a {
     background-color: var(--pikky-delete);
     position: absolute; 
     top:130px;
-    right: 280px;
-    padding: 10px 20px;
-    border-radius: 5px;
-    border: 2px solid var(--border-color);
-    display: flex;
-    align-items: center;
-    gap: 8px;
-    cursor: pointer;
-    box-shadow: 4px 4px 0px 0px rgba(0, 0, 0, 0.1);
-    transition: transform 0.3s ease;
-}
-
-.delete-btn:hover {
-    transform:scale(1.05);
-}
-
-.refresh-btn {
-    font-family: "Google Sans", sans-serif;
-    font-size: 16px;
-    background-color: var(--pikky-delete);
-    position: absolute; 
-    top:40px;
     right: 300px;
     padding: 10px 20px;
     border-radius: 5px;
@@ -127,6 +107,28 @@ a {
     transition: transform 0.3s ease;
 }
 
-.refresh-btn:hover {
-    transform:scale(1.05);
+.delete-btn:hover {
+    background-color: #FFC0CB;
+}
+
+.shuffle-btn {
+    font-family: "Google Sans", sans-serif;
+    font-size: 16px;
+    background-color: var(--pikky-delete);
+    position: absolute; 
+    top:40px;
+    right: 280px;
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: 2px solid var(--border-color);
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    cursor: pointer;
+    box-shadow: 3px 3px 0px 0px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+.shuffle-btn:hover {
+    background-color: #FFA6CA;
 }

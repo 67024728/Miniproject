@@ -1,0 +1,176 @@
+.progressWrapper {
+  width: 100%;
+  max-width: 800px;
+  margin: 50px auto;
+  display: flex;
+  flex-direction: column-reverse;
+  align-items: center;
+  gap: 10px;
+  padding: 0 20px;
+}
+
+/* ขอบนอก */
+.progressBar {
+  width: 100%;
+  height: 14px;
+  background-color: #ffffff;
+  border-radius: 20px;
+  border: 2px solid #000;
+  overflow: hidden;
+  position: relative;
+}
+
+/* แถบสีที่วิ่ง */
+.progressFill {
+  height: 100%;
+  background-color: #fff176;
+  border-radius: 20px 0 0 20px;
+  transition: width 0.4s ease-out;
+}
+
+/* ตัวเลขแสดงจำนวน*/
+.counter {
+    font-size: 1rem;
+    font-weight: 500;
+    color: #000;
+    font-family: "Google Sans", sans-serif;
+}
+
+.main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    perspective: 1000px;
+}
+
+.card {
+    width: 100%;
+    max-width: 500px;
+    height: 400px;
+    position: relative;
+    transform-style: preserve-3d;
+    transition: transform 0.6s cubic-bezier(0.4, 0, 0.2, 1);
+    cursor: pointer;
+}
+
+/* เมื่อมี Class .flipped ให้หมุน 180 องศา */
+.card.flipped {
+    transform: rotateY(180deg);
+}
+
+/* สไตล์ร่วมของทั้งหน้าหน้าและหน้าหลัง */
+.cardFront, .cardBack {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden; /* ซ่อนอีกด้านเมื่อพลิก */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+    border: 2px solid #000;
+    background-color: #fff;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.1);
+    padding: 20px;
+    text-align: center;
+}
+
+/* หน้าหลังต้องถูกหมุนรอไว้ก่อน */
+.cardBack {
+    transform: rotateY(180deg);
+}
+
+.label {
+    font-size: 1rem;
+    color: #888;
+    position: absolute;
+    top: 20px;
+}
+
+.word, .translation {
+    font-size: 3.5rem;
+    margin:0;
+    color: #222;
+    line-height: 1.1;
+}
+
+.pos {
+    font-size: 1.5rem;
+    color: #666;
+    font-style: italic;
+    margin-top: 5px;
+}
+
+.hintText {
+    font-size: 0.85rem;
+    color: #bbb;
+    position: absolute;
+    bottom: 20px;
+}
+
+.reading {
+    font-size: 1.5rem;
+    color: #666;
+    font-style: italic;
+}
+
+.footer {
+    margin: 100px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.buttonGroup {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+
+.navBtn {
+    font-family: "Google Sans", sans-serif;
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    padding: 10px 20px;
+    background-color: #fff;
+    border: 2px solid #333;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.2s;
+    color: #333; 
+}
+
+.navBtn:hover:not(:disabled) {
+    background-color: #f0f0f0;
+}
+
+.navBtn:disabled {
+    opacity: 0.4;
+    cursor: not-allowed;
+    border-color: #ccc;
+}
+
+.flipBtn {
+    font-family: "Google Sans", sans-serif;
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    padding: 12px 25px;
+    background-color: #fff59d;
+    border: 2px solid #333;
+    border-radius: 5px;
+    font-weight: 700;
+    cursor: pointer;
+    transition: all 0.2s;
+  }
+
+.flipBtn:hover {
+  background-color: #FFEE8C;
+}
+
+
+

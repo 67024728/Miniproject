@@ -1,8 +1,30 @@
 .filter_container {
-  display: flex;
-  align-items: center;
-  gap: 5px;
-  padding: 15px;
-  border-radius: 12px;
-  white-space: nowrap;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+
 }
+
+.filter_btn {
+    font-family: "Google Sans", sans-serif;
+    font-weight: bold;
+    font-size: 16px;
+    padding:7px 11px;
+    border: 2px solid #000;
+    background-color: white;
+    cursor: pointer;
+    border-radius: 8px;
+    transition: all 0.2s;
+}
+
+/* ปุ่มถูกเลือก */
+.active {
+  background-color: #fff176;
+  color: #000;
+  box-shadow: 2px 2px 0px 0px rgba(0, 0, 14, 0.1);
+}
+
+.filter_btn:hover:not(.active) {
+  background-color: #f0f0f0;
+}
+

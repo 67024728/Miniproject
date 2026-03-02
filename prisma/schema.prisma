@@ -1,5 +1,5 @@
 generator client {
-  provider = "prisma-client"
+  provider = "prisma-client-js"
 }
 
 datasource db {
@@ -7,16 +7,35 @@ datasource db {
   url      = env("DATABASE_URL")
 }
 
-model Vocabulary {
-  id String @id @default(auto()) @map("_id") @db.ObjectId
-  word String @unique
-  pos String
-  phonetic String
-  transtlation String
-  alphabet String
+model User {
+  id           String   @id @default(auto()) @map("_id") @db.ObjectId
+  username     String   @unique // เพิ่ม @unique เพื่อไม่ให้ชื่อซ้ำกันตามหน้าสมัคร
+  email        String   @unique
+  password     String   // เก็บ Hash password
+  name         String?  // ชื่อจริง (ถ้ามี)
+  
+  // เชื่อมกับ Vocabulary 
+  vocabularies Vocabulary[] 
 
-  createdAt DateTime @default(now())
-  updatedAt DateTime @updatedAt
+  createdAt    DateTime @default(now())
+  updatedAt    DateTime @updatedAt
+}
+
+model Vocabulary {
+  id           String   @id @default(auto()) @map("_id") @db.ObjectId
+  word         String   
+  pos          String
+  phonetic     String?  // ปรับเป็น optional เพราะบางคำอาจไม่มี
+  translation  String   // แก้คำผิดจาก 'transtlation'
+  alphabet     String
+  
+  // เชื่อมกับ User (แนะนำให้เป็น Required ถ้าต้องการให้แต่ละคนมีคลังคำศัพท์ตัวเอง)
+  userId       String   @db.ObjectId
+  user         User     @relation(fields: [userId], references: [id])
+
+  createdAt    DateTime @default(now())
+  updatedAt    DateTime @updatedAt
 
   @@index([alphabet])
+  @@unique([word, userId]) // ป้องกัน User คนเดิมบันทึกคำศัพท์เดิมซ้ำ
 }
