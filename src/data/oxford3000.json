@@ -2998,6 +2998,5 @@
   { "id": 2997, "word": "Twin", "pos": "n., adj.", "phonetic": "/twɪn/", "meaning": "ฝาแฝด" },
   { "id": 2998, "word": "Two", "pos": "number", "phonetic": "/tuː/", "meaning": "สอง" },
   { "id": 2999, "word": "Type", "pos": "n., v.", "phonetic": "/taɪp/", "meaning": "ประเภท/พิมพ์" },
-  { "id": 3000, "word": "Typical", "pos": "adj.", "phonetic": "/ˈtɪp.ɪ.kəl/", "meaning": "ตามแบบฉบับ/ปกติ" },
-  { "id": 3001, "word": "Zone", "pos": "n.", "phonetic": "/zəʊn/", "meaning": "เขต/พื้นที่/บริเวณ" }
+  { "id": 3000, "word": "Typical", "pos": "adj.", "phonetic": "/ˈtɪp.ɪ.kəl/", "meaning": "ตามแบบฉบับ/ปกติ" }
 ] 
