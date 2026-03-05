@@ -8,16 +8,44 @@
     background-color: #C7DBF0;
     border: 2px solid #333;
     border-radius: 5px;
-    max-width: 900px;
-    margin: 40px 0 0 150px;
-    display: flex;
-    justify-content: center;
+    max-width: 1000px;
+    margin: 40px auto;
+    display: flex; 
+    align-items: center; /* จัดให้อยู่กลางแนวตั้งเท่ากัน */
+    justify-content: bwtween; /* แยกข้อความไว้ซ้าย ปุ่มไว้ขวา */
+    padding: 10px 20px;
+    gap: 15px; /* ระยะห่างขั้นต่ำระหว่างข้อความกับปุ่ม */
     box-shadow: 4px 4px 0px rgba(0,0,0,0.1);
 }
 
 .advice {
     font-size: 16px;
+    margin: 0; /* เอา margin พื้นฐานของ <p> ออก */
+    flex: 1;   /* ให้ข้อความกินพื้นที่ที่เหลือเพื่อดันปุ่มไปทางขวา */
 }
+
+.save_btn, .delete_btn {
+    /* นำ position: absolute ออกให้หมด */
+    position: static; 
+    
+    font-family: "Google Sans", sans-serif;
+    font-size: 16px;
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: 2px solid #000;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    cursor: pointer;
+    box-shadow: 4px 4px 0px 0px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+    color: #000;
+    white-space: nowrap; /* ป้องกันปุ่มตัดบรรทัด */
+}
+
+/* ใส่สีแยกตามเดิม */
+.save_btn { background-color: #FFEE8C; }
+.delete_btn { background-color: #F8C8DC; }
 
 /* คอนเทนเนอร์หลักของตาราง */
 .vocabletable {

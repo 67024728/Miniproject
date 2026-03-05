@@ -70,10 +70,10 @@ export default function Addvocabpage() {
         <main>
             <section className={styles.box}>
                 <p className={styles.advice}>💡 คำแนะนำ: พิมพ์ข้อมูลในแถวสุดท้าย แถวใหม่จะถูกเพิ่มอัตโนมัติ | คำศัพท์และคำแปลเป็นข้อมูลที่จำเป็น</p>
-                <button className="delete-btn" onClick={handleClear}>
+                <button className={styles.delete_btn} onClick={handleClear}>
                     <span className="material-symbols-outlined">delete</span> ล้างทั้งหมด
                 </button>
-                <button className="save-btn" onClick={handleSave}>
+                <button className={styles.save_btn} onClick={handleSave}>
                     <span className="material-symbols-outlined">save</span> บันทึก
                 </button>
             </section>

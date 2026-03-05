@@ -80,7 +80,7 @@ export default function FlashcardPage() {
                 </button>
             </Link>
 
-          <button className="shuffle-btn" onClick={handleShuffle}>
+          <button className={styles.shuffle_btn} onClick={handleShuffle}>
             <span className="material-symbols-outlined">shuffle</span>
           </button>
 

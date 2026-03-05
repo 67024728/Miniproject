@@ -1676,7 +1676,7 @@
   { "id": 1675, "word": "Manufacture", "pos": "v., n.", "phonetic": "/ˌmæn.jəˈfæk.tʃər/", "meaning": "ผลิตด้วยเครื่องจักร" },
   { "id": 1676, "word": "Manufacturer", "pos": "n.", "phonetic": "/ˌmæn.jəˈfæk.tʃər.ər/", "meaning": "ผู้ผลิต" },
   { "id": 1677, "word": "Manufacturing", "pos": "n.", "phonetic": "/ˌmæn.jəˈfæk.tʃə.rɪŋ/", "meaning": "อุตสาหกรรมการผลิต" },
-  { "id": 1678, "word": "Many", "pos": "det., pron.", "phonetic": "/ˈmen.i/", "meaning": "มาก" },
+  { "id": 1678, "word": "Many", "pos": "pron.", "phonetic": "/ˈmen.i/", "meaning": "มาก" },
   { "id": 1679, "word": "Map", "pos": "n.", "phonetic": "/mæp/", "meaning": "แผนที่" },
   { "id": 1680, "word": "March", "pos": "n., v.", "phonetic": "/mɑːtʃ/", "meaning": "มีนาคม/การเดินขบวน" },
   { "id": 1681, "word": "Mark", "pos": "n., v.", "phonetic": "/mɑːk/", "meaning": "เครื่องหมาย/คะแนน/ทำเครื่องหมาย" },

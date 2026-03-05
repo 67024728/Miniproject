@@ -6,8 +6,6 @@
     --border-color: #000;
     --white-home: #fff;
     --white-hover: #F5F5F5;
-    --pikky-delete: #F8C8DC;
-    --yellow-save: #FFEE8C;
 }
 
 body {
@@ -28,8 +26,8 @@ a {
     font-size: 16px;
     background-color: var(--white-home);
     position: absolute; 
-    top:40px;
-    left: 110px;
+    top:20px;
+    left: 5%;
     padding: 10px 20px;
     border-radius: 5px;
     border: 2px solid var(--border-color);
@@ -49,9 +47,9 @@ a {
     font-family: "Google Sans", sans-serif;
     font-size: 16px;
     background-color: var(--pink-logout);
-    position: absolute; 
-    top: 40px;
-    right: 110px;
+    position: absolute;
+    top: 20px; /* ลดระยะลงเล็กน้อยให้ดูพอดี */
+    right: 5%;
     padding: 10px 20px;
     border-radius: 5px;
     border: 2px solid var(--border-color);
@@ -61,74 +59,9 @@ a {
     cursor: pointer;
     box-shadow: 3px 3px 0px 0px rgba(0, 0, 0, 0.1);
     transition: transform 0.3s ease;
+    z-index: 10;
 }
 
 .logout-btn:hover {
     background-color: var(--red-logout);
-}
-
-.save-btn {
-    font-family: "Google Sans", sans-serif;
-    font-size: 16px;
-    background-color: var(--yellow-save);
-    position: absolute; 
-    top:130px;
-    right: 160px;
-    padding: 10px 20px;
-    border-radius: 5px;
-    border: 2px solid var(--border-color);
-    display: flex;
-    align-items: center;
-    gap: 8px;
-    cursor: pointer;
-    box-shadow: 4px 4px 0px 0px rgba(0, 0, 0, 0.1);
-    transition: transform 0.3s ease;
-}
-
-.save-btn:hover {
-    background-color: var(--hover-yellow);
-}
-
-.delete-btn {
-    font-family: "Google Sans", sans-serif;
-    font-size: 16px;
-    background-color: var(--pikky-delete);
-    position: absolute; 
-    top:130px;
-    right: 300px;
-    padding: 10px 20px;
-    border-radius: 5px;
-    border: 2px solid var(--border-color);
-    display: flex;
-    align-items: center;
-    gap: 8px;
-    cursor: pointer;
-    box-shadow: 4px 4px 0px 0px rgba(0, 0, 0, 0.1);
-    transition: transform 0.3s ease;
-}
-
-.delete-btn:hover {
-    background-color: #FFC0CB;
-}
-
-.shuffle-btn {
-    font-family: "Google Sans", sans-serif;
-    font-size: 16px;
-    background-color: var(--pikky-delete);
-    position: absolute; 
-    top:40px;
-    right: 280px;
-    padding: 10px 20px;
-    border-radius: 5px;
-    border: 2px solid var(--border-color);
-    display: flex;
-    align-items: center;
-    gap: 8px;
-    cursor: pointer;
-    box-shadow: 3px 3px 0px 0px rgba(0, 0, 0, 0.1);
-    transition: transform 0.3s ease;
-}
-
-.shuffle-btn:hover {
-    background-color: #FFA6CA;
 }

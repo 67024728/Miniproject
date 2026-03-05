@@ -64,6 +64,7 @@
     background-color: #fff;
     cursor: pointer;
     transition: all 0.2s ease;
+    color: #000;
 }
 
 .pagination button:hover:not(:disabled) {
@@ -104,10 +105,11 @@
   align-items: center;
   padding: 12px 20px;
   background-color: #fff;
-  border: 1.5px solid #000; /* เส้นขอบชัดเจนตามสไตล์หน้าเว็บ */
-  border-radius: 15px; /* มนเท่ากับกล่องตัวอักษร */
+  border: 1.5px solid #000;
+  border-radius: 15px;
   margin-bottom: 20px;
   box-shadow: 2px 2px 0px rgba(0,0,0,0.1);
+  color: #000;
 }
 
 .actionButtons {
@@ -115,7 +117,7 @@
   gap: 10px;
 }
 
-/* ปุ่มทบทวน (สีขาว/ดำ) */
+/* ปุ่มทบทวนคำศัพท์ */
 .reviewBtn {
   display: flex;
   align-items: center;
@@ -134,7 +136,7 @@
   transform: translateY(-1px);
 }
 
-/* ปุ่มลบออก (เพิ่มสีแดงอ่อนให้เข้ากับปุ่ม Logout) */
+/* ปุ่มลบคำศัพท์ */
 .deleteBtn {
   display: flex;
   align-items: center;
@@ -153,7 +155,6 @@
   color: #d32f2f;
 }
 
-/* บังคับขนาดไอคอน */
 .reviewBtn span, .deleteBtn span {
   font-size: 20px !important;
   vertical-align: middle;
