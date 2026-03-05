@@ -150,7 +150,7 @@ export default function RegisterPage() {
             className={styles.register_btn} 
             disabled={loading}
           >
-            {loading ? "กำลังลงทะเบียน..." : "ลงทะเบียนเลย"}
+            {loading ? "กำลังลงทะเบียน..." : "ลงทะเบียน"}
           </button>
 
           <p className={styles.footer_text}>

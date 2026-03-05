@@ -137,6 +137,7 @@
     font-weight: 700;
     cursor: pointer;
     transition: all 0.2s;
+    color: #000;
 }
 
 .shuffle_btn {

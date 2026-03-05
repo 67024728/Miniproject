@@ -37,6 +37,7 @@ a {
     cursor: pointer;
     box-shadow: 3px 3px 0px 0px rgba(0, 0, 0, 0.1);
     transition: transform 0.3s ease;
+    color: #000;
 }
 
 .home-btn:hover {
@@ -60,6 +61,7 @@ a {
     box-shadow: 3px 3px 0px 0px rgba(0, 0, 0, 0.1);
     transition: transform 0.3s ease;
     z-index: 10;
+    color: #000;
 }
 
 .logout-btn:hover {
